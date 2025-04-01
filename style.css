@@ -8,11 +8,15 @@ body {
   background-color: #d4d4d4;
   display: flex;
   align-items: center;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
-.header span {
+.header a {
   margin: 15px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
 }
 
 .header div {
@@ -60,4 +64,8 @@ body {
 
 .titles h1 {
   margin-right: 15px;
+}
+
+.pointer_cursor {
+  cursor: pointer;
 }
