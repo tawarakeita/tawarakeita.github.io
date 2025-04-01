@@ -7,12 +7,15 @@ body {
   background-color: #d4d4d4;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  padding-right: 20px;
+  justify-content: space-between
 }
 
 .header span {
   margin: 15px;
+}
+
+.header div {
+  display: flex;
 }
 
 .github-icon {
@@ -25,4 +28,35 @@ body {
   width: 30px;
   display: flex;
   margin: 15px;
+}
+
+.content {
+  margin: 40px;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.button {
+  background-color: rgb(79, 88, 211);
+  color: #fff;
+  width: 130px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.button.big {
+  width: 150px;
+  height: 40px;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+}
+
+.titles h1 {
+  margin-right: 15px;
 }
