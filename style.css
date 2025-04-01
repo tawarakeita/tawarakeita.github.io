@@ -69,3 +69,14 @@ body {
 .pointer_cursor {
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .titles {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .titles h1 {
+    margin-bottom: 5px;
+  }
+}
