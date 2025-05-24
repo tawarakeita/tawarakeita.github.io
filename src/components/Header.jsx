@@ -9,7 +9,7 @@ export default function Header() {
           <a className='m-[15px] cursor-pointer inline-block text-black' href="/">
             プロフィール
           </a>
-          <a className='m-[15px] cursor-pointer inline-block text-black' href="/creation_apps">
+          <a className='m-[15px] cursor-pointer inline-block text-black' href="/apps">
             <span>制作アプリ</span>
           </a>
         </div>
