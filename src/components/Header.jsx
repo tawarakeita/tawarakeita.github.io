@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
@@ -6,12 +7,12 @@ export default function Header() {
     <div>
       <header className="h-[60px] bg-neutral-300 flex items-center justify-between">
         <div className='flex'>
-          <a className='m-[15px] cursor-pointer inline-block text-black' href="/">
+          <Link className='m-[15px] cursor-pointer inline-block text-black' href="/">
             プロフィール
-          </a>
-          <a className='m-[15px] cursor-pointer inline-block text-black' href="/apps">
+          </Link>
+          <Link className='m-[15px] cursor-pointer inline-block text-black' href="/apps">
             <span>制作アプリ</span>
-          </a>
+          </Link>
         </div>
         <div className='flex'>
           <a className="" href="https://github.com/tawarakeita">

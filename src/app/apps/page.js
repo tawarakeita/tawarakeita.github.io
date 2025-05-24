@@ -1,9 +1,15 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Link from 'next/link'
+import Title from "../../components/Title";
 
 export default function Page() {
   return (
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        HelloAppsPage!
+      <main>
+        <Title mainText = "制作アプリ" subText = "Apps" />
+        <div>
+          <Link href="/apps/shareyourlife">
+            <span>shareYourLIFE</span>
+          </Link>
+        </div>
       </main>
   );
 }
