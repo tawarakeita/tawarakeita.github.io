@@ -3,7 +3,7 @@ export default function Page() {
     <main className='m-[40px]'>
       <div className="flex items-center mb-5">
         <h1 className='text-3xl mr-[15px]'>shareYourLIFEとは</h1>
-        <a href="http://syl.kei-apps.com:3001" target="_blank">
+        <a href="http://syl.kei-apps.com" target="_blank">
           <button className="bg-[#4F58D3] text-white w-[150px] h-[40px] border-none">アプリはこちら</button>
         </a>
       </div>
