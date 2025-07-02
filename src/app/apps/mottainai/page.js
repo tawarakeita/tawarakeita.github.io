@@ -1,29 +1,29 @@
 export const metadata = {
-  title: 'shareYourLIFE - 日々のルーティーンを楽しく',
-  description: 'shareYourLIFEは、寝た時間・起きた時間・朝ごはんを共有して、より良い生活を目指すアプリです。',
+  title: 'もったいない！ - 賞味期限管理アプリ',
+  description: 'もったいない！は、賞味期限を管理できる便利なアプリです。',
 };
 
 export default function Page() {
   return (
     <main className='m-[40px]'>
       <div className="flex items-center mb-5">
-        <h1 className='text-3xl mr-[15px]'>shareYourLIFEとは</h1>
-        <a href="https://syl.kei-apps.com" target="_blank">
+        <h1 className='text-3xl mr-[15px]'>もったいない！とは</h1>
+        <a href="https://mottainai.kei-apps.com" target="_blank">
           <button className="bg-[#4F58D3] text-white w-[150px] h-[40px] border-none">アプリはこちら</button>
         </a>
       </div>
       <span>
-        shareYourLIFEとは、寝た時間、起きた時間、朝ごはんを共有して、より良い生活を目指すアプリです。
+        もったいない！とは、食品の情報を登録し賞味期限を管理できる便利なアプリです。便利に使用できる機能がたくさんあります。
       </span>
       <h1 className='text-3xl mr-[15px] my-5'>使い方</h1>
       <span>
-        投稿するためにはアカウントを作成します。（閲覧のみであれば、アカウント作成は必要ありません。）
+        アプリを使用するためにはアカウントを作成する必要があります。（メールアドレスとパスワードを入力するとアカウントを作成できます。）
         <br />
-        「みんなの朝ごはん」では、朝ごはんの写真、タイトル、説明を入力すると投稿できます。
+        「一覧」では、登録した食品が表として表示されます。
         <br />
-        「みんなの早寝」、「みんなの早起き」では、時間が早い順にランキングが表示されます。
+        「実績」では、月毎に賞味期限内にどのくらい使い切れているかがグラフで表示されます。
         <br />
-        &#8251;目標時間を入力し、その時間との差を元にランキングを表示するように改良中です。
+        「クックパッドでレシピを検索」では、使いたい食品を選択し、外部サイト（クックパッド）でレシピを検索できます。
       </span>
       <br />
       <div className='mt-5'>
