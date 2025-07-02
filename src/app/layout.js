@@ -13,7 +13,7 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata = {
   title: "俵恵太ポートフォリオ",
-  description: "俵恵太のポートフォリオです。",
+  description: "俵恵太の制作したアプリなどを紹介しています。",
 };
 
 export default function RootLayout({ children }) {
