@@ -12,7 +12,7 @@ export default function Header() {
       <Link href="/contact" className="text-black hover:text-gray-700">CONTACT</Link>
     </nav>
 
-    <div className="flex items-center gap-3">
+    <div className="sm:flex items-center gap-3 hidden">
       <a href="https://x.com/k_tawara0102" className="text-gray-700 hover:text-black">
         <FontAwesomeIcon className="text-2xl" icon={faXTwitter} />
       </a>
