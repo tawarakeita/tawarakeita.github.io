@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faXTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export default function Header() {
   return (
@@ -13,11 +13,14 @@ export default function Header() {
     </nav>
 
     <div className="flex items-center gap-3">
-      <a href="https://github.com/tawarakeita" className="text-gray-700 hover:text-black">
-        <FontAwesomeIcon className="text-2xl" icon={faGithub} />
-      </a>
       <a href="https://x.com/k_tawara0102" className="text-gray-700 hover:text-black">
         <FontAwesomeIcon className="text-2xl" icon={faXTwitter} />
+      </a>
+      <a href="https://www.instagram.com/ecopay_tawara" className="text-gray-700 hover:text-black">
+        <FontAwesomeIcon className="text-2xl" icon={faInstagram} />
+      </a>
+      <a href="https://github.com/tawarakeita" className="text-gray-700 hover:text-black">
+        <FontAwesomeIcon className="text-2xl" icon={faGithub} />
       </a>
     </div>
   </header>
