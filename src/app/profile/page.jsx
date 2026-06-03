@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <main className="min-h-screen flex items-center justify-center p-6">
       <div className="w-full max-w-3xl bg-gray-600 backdrop-blur-md rounded-xl shadow-xl p-8">
-        <div className="mt-6 space-y-3 text-white text-lg">
+        <div className="space-y-3 text-white text-lg">
           <p className="text-3xl font-semibold">俵 恵太 / たわら けいた / Tawara Keita</p>
           <div className="flex gap-4 text-2xl">
             <a className="" href="https://x.com/k_tawara0102">
