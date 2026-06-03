@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className='min-h-screen flex items-center justify-center p-6'>
+    <main className='min-h-screen flex sm:items-center items-center justify-center mt-20 sm:mt-0 p-6'>
       <div className="w-full max-w-3xl bg-gray-600 backdrop-blur-md rounded-xl shadow-xl p-8">
         <div className="space-y-3 text-white text-lg">
           <p className="text-3xl font-semibold">shareYourLIFE</p>
