@@ -25,9 +25,9 @@ export default function Home() {
             <Link href="/services">
               <span>Services</span>
             </Link>
-            <a href="https://forms.gle/53NnZx12Jab7TnsT7">
+            <Link href="/contact">
               <span>Contact</span>
-            </a>
+            </Link>
           </div>
         </div>
       </main>
