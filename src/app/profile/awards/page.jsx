@@ -17,7 +17,7 @@ export default function Page() {
           </ul>
         </div>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href="/profile" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200">プロフィールへ戻る</Link> 
+          <Link href="/profile" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200">プロフィールへ戻る</Link>
         </div>
       </div>
     </main>
