@@ -4,25 +4,22 @@ import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Header() {
   return (
-    <div>
-      <header className="h-[60px] bg-neutral-300 flex items-center justify-between">
-        <div className='flex'>
-          <Link className='m-[15px] cursor-pointer inline-block text-black' href="/">
-            プロフィール
-          </Link>
-          <Link className='m-[15px] cursor-pointer inline-block text-black' href="/apps">
-            <span>制作アプリ</span>
-          </Link>
-        </div>
-        <div className='flex'>
-          <a className="" href="https://github.com/tawarakeita">
-            <FontAwesomeIcon className='m-[15px]' size="2x" icon={faGithub} />
-          </a>
-          <a className="" href="https://x.com/k_tawara0102">
-            <FontAwesomeIcon className='m-[15px]' size="2x" icon={faXTwitter} />
-          </a>
-        </div>
-      </header>
+    <header className="fixed top-0 left-0 right-0 z-50 h-16 bg-white/90 backdrop-blur-sm flex items-center justify-between px-6 shadow-sm">
+    <nav className="flex items-center gap-4">
+      <Link href="/" className="text-black hover:text-gray-700">TOP</Link>
+      <Link href="/profile" className="text-black hover:text-gray-700">PROFILE</Link>
+      <Link href="/services" className="text-black hover:text-gray-700">SERVICES</Link>
+      <Link href="/contact" className="text-black hover:text-gray-700">CONTACT</Link>
+    </nav>
+
+    <div className="flex items-center gap-3">
+      <a href="https://github.com/tawarakeita" className="text-gray-700 hover:text-black">
+        <FontAwesomeIcon className="text-2xl" icon={faGithub} />
+      </a>
+      <a href="https://x.com/k_tawara0102" className="text-gray-700 hover:text-black">
+        <FontAwesomeIcon className="text-2xl" icon={faXTwitter} />
+      </a>
     </div>
+  </header>
   );
 }
