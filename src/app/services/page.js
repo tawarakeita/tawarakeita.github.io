@@ -20,7 +20,6 @@ export default function Page() {
           <p>賞味期限を管理するアプリです。</p>
         </div>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href="/" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200">ホームへ戻る</Link>
           <Link href="/services/mottainai" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200">詳細</Link>
         </div>
       </div>
@@ -37,7 +36,6 @@ export default function Page() {
           <p>朝ごはんの写真の共有や、寝た時間、起きた時間で競うことができるアプリです。</p>
         </div>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href="/" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200">ホームへ戻る</Link>
           <Link href="/services/shareyourlife" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200">詳細</Link>
         </div>
       </div>

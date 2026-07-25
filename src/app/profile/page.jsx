@@ -26,7 +26,6 @@ export default function Page() {
         </div>
 
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href="/" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200">ホームへ戻る</Link>
           <Link href="/profile/awards" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200">受賞歴</Link>
         </div>
       </div>
