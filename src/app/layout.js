@@ -1,9 +1,8 @@
 import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
-import HeaderClient from "../components/HeaderClient";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import { NavBreadcrumb } from "@/components/nav-breadcrumb";
+import LayoutShell from "@/components/LayoutShell";
 config.autoAddCss = false
 
 const notoSansJP = Noto_Sans_JP({
@@ -21,11 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja" className={notoSansJP.variable}>
       <body className="font-sans antialiased">
-        <HeaderClient />
-        <main className="min-h-screen flex flex-col pt-16">
-          <NavBreadcrumb />
-          <div className="flex-1 flex flex-col">{children}</div>
-        </main>
+        <LayoutShell>{children}</LayoutShell>
       </body>
     </html>
   );
