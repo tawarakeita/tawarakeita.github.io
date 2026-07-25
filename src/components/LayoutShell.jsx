@@ -11,7 +11,7 @@ export default function LayoutShell({ children }) {
   return (
     <>
       <HeaderClient />
-      <main className={`min-h-screen flex flex-col ${isHomePage ? "pt-0" : "pt-16"}`}>
+      <main className={`min-h-dvh flex flex-col ${isHomePage ? "pt-0" : "pt-16"}`}>
         <NavBreadcrumb />
         <div className="flex-1 flex flex-col">{children}</div>
       </main>

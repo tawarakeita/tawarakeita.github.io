@@ -8,7 +8,7 @@ config.autoAddCss = false
 const notoSansJP = Noto_Sans_JP({
   variable: "--font-noto",
   weight: ["400", "700"],
-  subsets: ["latin"],
+  subsets: ["latin", "japanese"],
 });
 
 export const metadata = {
@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ja" className={notoSansJP.variable}>
-      <body className="font-sans antialiased">
+      <body className="font-sans antialiased min-h-dvh overflow-x-hidden">
         <LayoutShell>{children}</LayoutShell>
       </body>
     </html>
