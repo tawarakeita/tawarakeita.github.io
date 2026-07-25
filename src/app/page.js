@@ -4,7 +4,7 @@ import { faGithub, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-
 
 export default function Home() {
   return (
-      <main className="flex flex-col gap-8 row-start-2 items-center min-h-screen justify-center">
+      <div className="flex flex-col gap-8 row-start-2 items-center min-h-screen justify-center">
         <div className="flex flex-col gap-8 items-center ml-5">
           <h1 className="text-8xl font-bold">Tawara Keita</h1>
           <div className="mr-auto sm:m-auto flex gap-5 sm:gap-6">
@@ -30,6 +30,6 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </main>
+      </div>
   );
 }

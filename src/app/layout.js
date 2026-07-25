@@ -3,6 +3,7 @@ import "./globals.css";
 import HeaderClient from "../components/HeaderClient";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import { NavBreadcrumb } from "@/components/nav-breadcrumb";
 config.autoAddCss = false
 
 const notoSansJP = Noto_Sans_JP({
@@ -21,7 +22,10 @@ export default function RootLayout({ children }) {
     <html lang="ja" className={notoSansJP.variable}>
       <body className="font-sans antialiased">
         <HeaderClient />
-        {children}
+        <main className="h-screen flex flex-col mt-16">
+          <NavBreadcrumb />
+          {children}
+        </main>
       </body>
     </html>
   );

@@ -1,9 +1,7 @@
-import Link from "next/link";
-
 export default function Page() {
   return (
-    <main className="min-h-screen flex flex-col items-center p-6 gap-6">
-      <h1 className="mt-20 mb-6 text-4xl font-bold">受賞歴</h1>
+    <div className="flex flex-col items-center p-6 gap-6 mt-26">
+      <h1 className="mb-6 text-4xl font-bold">受賞歴</h1>
       <div className="w-full max-w-3xl bg-gray-600 backdrop-blur-md rounded-xl shadow-xl p-8">
         <div className="space-y-3 text-white text-lg">
           <p className="text-xl">
@@ -67,6 +65,6 @@ export default function Page() {
           <p>#SEKAIを救おう！ #Scratch #環境問題</p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

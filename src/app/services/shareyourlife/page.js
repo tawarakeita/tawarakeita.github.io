@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className='min-h-screen flex sm:items-center justify-center mt-20 sm:mt-0 p-6'>
+    <div className='min-h-screen flex sm:items-center justify-center mt-20 sm:mt-0 p-6'>
       <div className="w-full max-w-3xl bg-gray-600 backdrop-blur-md rounded-xl shadow-xl p-8">
         <div className="space-y-3 text-white text-lg">
           <p className="text-3xl font-semibold">shareYourLIFE</p>
@@ -28,6 +28,6 @@ export default function Page() {
           <a href="https://syl.kei-apps.com" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200" target="_blank" rel="noopener noreferrer">アプリはこちら</a>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

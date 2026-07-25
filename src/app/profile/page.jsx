@@ -4,7 +4,7 @@ import { faGithub, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-
 
 export default function Page() {
   return (
-    <main className="min-h-screen flex items-center justify-center p-6">
+    <div className="min-h-screen flex items-center justify-center p-6">
       <div className="w-full max-w-3xl bg-gray-600 backdrop-blur-md rounded-xl shadow-xl p-8">
         <div className="space-y-3 text-white text-lg">
           <p className="text-3xl font-semibold">俵 恵太 / たわら けいた / Tawara Keita</p>
@@ -30,6 +30,6 @@ export default function Page() {
           <Link href="/profile/awards" className="inline-block px-4 py-2 rounded-md text-sm border text-white border-gray-200">受賞歴</Link>
         </div>
       </div>
-    </main>
+    </div>
   )
 }
