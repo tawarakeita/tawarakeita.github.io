@@ -21,6 +21,7 @@ export default function Page() {
           </div>
           <p>生年月日: 2012年1月2日</p>
           <p>出身: 島根県松江市（在住）</p>
+          <p>CO₂を削減するミッションを行ったらポイントを取得できるアプリ、「ecoPay」のプロジェクトを実施中です。</p>
           <p>主に <span className="font-medium">Ruby</span> で開発しています。</p>
         </div>
 
