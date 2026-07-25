@@ -22,9 +22,9 @@ export default function RootLayout({ children }) {
     <html lang="ja" className={notoSansJP.variable}>
       <body className="font-sans antialiased">
         <HeaderClient />
-        <main className="h-screen flex flex-col mt-16">
+        <main className="min-h-screen flex flex-col pt-16">
           <NavBreadcrumb />
-          {children}
+          <div className="flex-1 flex flex-col">{children}</div>
         </main>
       </body>
     </html>

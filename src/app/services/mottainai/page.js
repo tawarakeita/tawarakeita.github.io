@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className='min-h-screen flex sm:items-center justify-center mt-20 sm:mt-0 p-6'>
-      <div className="w-full max-w-3xl bg-gray-600 backdrop-blur-md rounded-xl shadow-xl p-8">
+    <div className='flex-1 flex items-center justify-center p-6 pt-0 mt-20'>
+      <div className="w-full max-w-3xl bg-gray-600 backdrop-blur-md rounded-xl shadow-xl p-8 my-auto">
         <div className="space-y-3 text-white text-lg">
           <p className="text-3xl font-semibold">もったいない！</p>
           <p>開発開始: 2023年</p>

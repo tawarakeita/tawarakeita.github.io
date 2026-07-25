@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <div className="flex flex-col items-center p-6 gap-6 mt-26">
+    <div className="flex flex-col items-center p-6 gap-6 mt-16">
       <h1 className="mb-6 text-4xl font-bold">受賞歴</h1>
       <div className="w-full max-w-3xl bg-gray-600 backdrop-blur-md rounded-xl shadow-xl p-8">
         <div className="space-y-3 text-white text-lg">
