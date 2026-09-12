@@ -32,7 +32,11 @@ type BreadcrumbItemData = {
   isCurrent?: boolean;
 };
 
-export const NavBreadcrumb = () => {
+type NavBreadcrumbProps = {
+  className?: string;
+};
+
+export const NavBreadcrumb = ({ className }: NavBreadcrumbProps) => {
   const pathname = usePathname();
 
   if (pathname === "/") {
@@ -62,7 +66,7 @@ export const NavBreadcrumb = () => {
   });
 
   return (
-    <Breadcrumb className="absolute top-22 left-5">
+    <Breadcrumb  className={className}>
       <BreadcrumbList>
         {items.map((item, index) => (
           <Fragment key={item.href ?? `${item.label}-${index}`}>
