@@ -21,8 +21,12 @@ export default function Page() {
           </div>
           <p>生年月日: 2012年1月2日</p>
           <p>出身: 島根県松江市（在住）</p>
-          <p>CO₂を削減するミッションを行ったらポイントを取得できるアプリ、「ecoPay」のプロジェクトを実施中です。</p>
-          <p>主に <span className="font-medium">Ruby</span> で開発しています。</p>
+          <p>開発: Ruby/Rails/Next.js etc.</p>
+          <hr className="my-3 w-[20%]" />
+          <p>ecoPayプロジェクトFounder。</p>
+          <p><a href="https://gounokawa.com" className="underline">江の川鐵道</a>をボランティアとして応援しています。</p>
+          <hr className="my-3 w-[20%]" />
+          <p><a href="https://mirachalle-shimane.com/u-18/" className="underline">島根未来共創チャレンジ</a> U-18 4期生</p>
         </div>
 
         <div className="mt-8 flex flex-wrap gap-3">
